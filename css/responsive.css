@@ -1,0 +1,120 @@
+@media (min-width:320px) and (max-width:767px){
+	.homePage{ background-attachment: fixed; }
+	.header{ height: 64px; }
+	.logo{ width: 90px; margin: 8px 0 0 15px; }
+	.btnMobileNav{ top: 22px; }
+	.loginCont{ display: none; }
+	.loginContMob{ display: block; padding: 70px 30px 20px 30px;}
+	.nav{ padding:0;}
+	/*.bannerContent{ transform: none; -moz-transform: none; -webkit-transform: none; top: auto; padding: 130px 15px 0 15px;}*/
+	.bannerContent h2{ font-size: 32px; line-height: 38px; }
+	.bannerContent h3{font-size: 18px; line-height: 26px; }
+	.nav li a{ padding: 6px 30px; }
+	.fooLogo{ padding: 0 0 5px 0; }
+	.fooDesc p{ padding: 0 0 7px 0; }
+	.fooDesc{ padding: 10px 20px 0 20px; }
+	.dvOurTeam{ padding: 30px 15px 0 15px; }
+	.dvOurTeam h2{ padding: 0 0 30px 0; }
+
+	
+	.whoweAre{ margin: 64px 0 0 0; padding: 30px 20px;}
+	.heading2{ font-size: 28px; padding: 0 0 20px 0; }
+	.whoweAre h4{ font-size: 20px; padding: 0 0 20px 0;}
+	.whoweAre h5{ font-size: 16px; line-height: 26px; }
+	.teamTabOuter{ padding: 30px 0; }
+	.teamLeft{ width: 100%; margin: 0 0 20px 0; text-align: center; }
+	.teamRight{ width: 100%; float: left; overflow: visible; }
+	.teamRight h3{ font-size: 20px;}
+	.teamRight h4{ font-size: 16px; }
+	.teamRowLeft{ width: 100%; }
+	.teamRowRight{ width: 100%; float: left; margin:20px 0 0 0; }
+	.teamRow{ margin: 0 0 20px 0; }
+
+	.dvWhatWeDo{ margin: 64px 0 0 0; padding: 30px 15px; }
+	.dvWhatWeDo h3{ font-size: 16px; line-height: 24px; padding: 0 0 20px 0; }
+	.whatwedoContent{ padding: 30px 15px; }
+	.tabs a{ font-size: 16px; margin: 0 15px;}
+	.tabs a span{ display: block;}
+	.tabs a::after{ height: 2px;}
+	.tabs a:hover::after, .tabs a.activeTab::after {border-bottom: 2px #2F81B1 solid;}
+	.tabcontentOuter{ padding: 30px 0 0 0; }
+	.dvmanagementLeft{ width: 100%; padding:0; }
+	.dvmanagementRight{ display: none; }
+
+	.community{ margin: 64px 0 0 0; padding: 30px 15px; }
+	.community .heading2{ padding: 0;}
+	.imgCommunity{ margin: 20px 0; }
+	.communityInner h4{ font-size: 18px; line-height: 28px; }
+
+	.news{ margin: 64px 0 0 0; padding: 30px 15px; }
+	.dvNews{ padding: 30px 15px; }
+	.newsRow h4{ font-size: 20px; }
+	.newsRow h5{ font-size: 17px; padding: 0 0 20px 0; }
+
+	.getInTouch{ padding: 30px 15px; margin: 64px 0 0 0;}
+	.dvgetInTouch{ padding: 20px; margin: 0;}
+	.dvgetInTouchLeft{ width: 100%; padding: 0; margin: 0 0 20px 0; border-right: 0; border-bottom: 2px #EBEBEB solid;}
+	.dvgetInTouchRight{ padding: 0; width: 100%; overflow: visible; border:0; left: auto; float: left;}
+	.dvgetInTouchLeft h4{ font-size: 16px; }
+	.dvgetInTouchLeft h5{ font-size: 14px; line-height: 24px; padding: 0 0 20px 0; }
+	.dvgetInTouchLeft p{ padding: 0 0 20px 0; }
+	.dvgetInTouchLeft a{ font-size: 14px; }
+	.dvgetInTouchRight h4{ font-size: 14px; padding: 0 0 20px 0; }
+	.frmRow{ margin: 0; }
+	.frmCol.w_100{ padding: 0; }
+	.frmCol{ width: 100%; padding: 0; margin: 0 0 10px 0; }
+
+	.footer{ display: none; }
+
+	.dvCommunity{ min-height: 870px; width: 290px; margin-top: 20px;}
+	.item1{ width: 170px; height: 99px; left: 10px; top: 10px;}
+	.item2{ width: 95px; height: 99px; left: 185px; top: 10px;}
+	.item3{ width: 170px; height: 200px; left: 10px; top: 114px;}
+	.item4{ width: 96px; height: 200px; left: 185px; top: 114px;}
+	.item5{ width: 270px; height: 240px; left: 10px; top: 319px;}
+	.item6{ width: 270px; height: 170px; left: 10px; top: 564px;}
+	.item7{ width: 270px; height: 170px; left: 10px; top: 739px;}
+	.item7 > img{ width: 100%;}
+
+	.dvBoardAdviser{ padding: 0; }
+	#ReportingNext{ opacity: 1; }
+	#ReportingPrev{ opacity: 1; }
+	#ResearchNext{ opacity: 1; }
+	#ResearchPrev{ opacity: 1; }
+	#OfficeAdministrationNext{ opacity: 1; }
+	#OfficeAdministrationPrev{ opacity: 1; }
+	.tabs.tabsTeam a{ margin: 0 0 10px 0; padding: 0 0 10px 0; font-size: 16px; display: block; }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.bannerContent{ transform: none; -moz-transform: none; -webkit-transform: none; top: auto; padding: 250px 50px 0 50px;}
+	.teamTabOuter{ padding: 50px 0; }
+	.teamLeft{ width: 150px; margin: 0 30px 0 0; }
+	.getInTouch{ padding: 50px 30px; }
+	.dvgetInTouch{ padding: 20px; }
+	.dvgetInTouchLeft{ width: 300px; padding: 0 20px 0 0;}
+	.dvgetInTouchRight{ padding: 0 0 0 20px; }
+	
+	.dvCommunity{ min-height: 280px; width: 692px; }
+	.community{ padding: 70px 38px; }
+	.item1{ width: 245px; height: 138px; left: 10px; top: 10px;}
+	.item2{ width: 138px; height: 138px; left: 265px; top: 10px;}
+	.item3{ width: 122px; height: 138px; left: 413px; top: 10px;}
+	.item4{ width: 138px; height: 286px; left: 545px; top: 10px;}
+	.item5{ width: 160px; height: 138px; left: 10px; top: 158px;}
+	.item6{ width: 226px; height: 138px; left: 180px; top: 158px;}
+	.item7{ width: 122px; height: 138px; left: 416px; top: 158px;}
+
+	.dvBoardAdviser{ padding: 0; }
+	.tabs.tabsTeam a{ margin: 0 15px 15px 15px; }
+}
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:portrait){
+	#ReportingNext{ opacity: 1; }
+	#ReportingPrev{ opacity: 1; }
+	#ResearchNext{ opacity: 1; }
+	#ResearchPrev{ opacity: 1; }
+	#OfficeAdministrationNext{ opacity: 1; }
+	#OfficeAdministrationPrev{ opacity: 1; }
+}

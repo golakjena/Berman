@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Berman Capital Advisors</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body class="homePage">
+	<header class="header">
+		<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+	</header>
+	<div class="loginCont clearfix">
+		<a href="https://bd3.bdreporting.com/" class="clientLogin" target="_blank">Client Login</a>
+	</div>
+	<div class="btnMobileNavOuter"></div>
+	<a class="btnMobileNav" href="javascript:void(0);"><span>Menu</span> <i></i></a>
+	<div class="navigationOuter">
+		<div class="loginContMob clearfix">
+			<a href="https://bd3.bdreporting.com/" class="clientLogin" target="_blank">Client Login</a>
+		</div>
+		<ul class="nav clearfix">
+			<li><a class="activePage" href="index.html">Home</a></li>
+			<li><a href="who-we-are.html">Who We Are</a></li>
+			<li><a href="what-we-do.html">What We Do</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="news.html">In The News</a></li>
+			<li><a href="get-in-touch.html">Get In Touch</a></li>
+		</ul>
+		<div class="fooDesc">
+			<div class="fooLogo"><img src="images/footer_logo.png" alt=""></div>
+			<p>3475 Lenox Road / Suite 760 / <br> Atlanta, GA 30326<br> 404.554.4999 office / 404.554.0455 fax</p>
+			<p>&copy; Copyright 2017. Berman Capital Advisors. All rights reserved.</p>
+		</div>
+	</div>
+	<div class="videoCont clearfix">
+		<div class="bannerContent">
+			<h2>Welcome to Berman Capital Advisors</h2>
+			<h3>A partner, in the purest sense of the word.</h3>
+		</div>
+		<div class="videoOverlay"></div>
+		<div id="videoplayer"></div>
+	</div>
+	<div class="bodyBg"></div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.berman.js"></script>
+	<script>
+	//Random Video
+	$(function(){
+		var videoList = [
+			"images/atlanta1.mp4",
+			"images/atlanta2.mp4",
+			"images/atlanta4.mp4"
+		];
+		var posters = [
+			"images/atlanta1.jpg",
+			"images/atlanta2.jpg",
+			"images/atlanta4.jpg"
+		];
+		var randomVideo = Math.floor(Math.random()*videoList.length);
+		$("#videoplayer").html("<video id='video' autoplay muted playsinline poster='" + posters[randomVideo] + "' loop><source src='" + videoList[randomVideo] + "' type='video/mp4'></video>");
+
+		var winWidth = $(window).width();
+		var winHeight = $(window).height();
+		$('body, html').css({
+			width:winWidth,
+			height:winHeight,
+			overflow:"hidden"
+		});
+		$(window).on("resize", function(){
+			winWidth = $(window).width();
+			winHeight = $(window).height();
+			$('body, html').css({
+				width:winWidth,
+				height:winHeight,
+				overflow:"hidden"
+			});
+		});
+	});
+	</script>
+</body>
+</html>
